@@ -129,6 +129,39 @@ class LinkedList:
                 previous = current
                 current = current.next_node
         return current
+    
+    
+    def remove_at_index(self, index):
+        """
+        Removes Node at specified index
+        Takes O(n) time
+        """
+
+        if index >= self.__count:
+            raise IndexError('index out of range')
+
+        current = self.head
+
+        if index == 0:
+            self.head = current.next_node
+            self.__count -= 1
+            return current
+
+        position = index
+
+        while position > 1:
+            current = current.next_node
+            position -= 1
+
+        prev_node = current
+        current = current.next_node
+        next_node = current.next_node
+
+        prev_node.next_node = next_node
+        self.__count -= 1
+
+        return current
+
 
     def __repr__(self):
         """
