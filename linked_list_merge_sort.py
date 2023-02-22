@@ -10,6 +10,7 @@ def merge_sort(linked_list):
     Recursively divide the linked list into sublists containing a single node
     Repeatedly merge the sublists to produce sorted sublists until one remails
     Returns a sorted linked list
+    Runs in O(kn log n)
     """
 
     if linked_list.size() == 1:
