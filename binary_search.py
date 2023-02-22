@@ -30,3 +30,6 @@ verify(result)
 
 result = binary_search(numbers, 6)
 verify(result)
+
+# Target not found in list
+# Target found at index: 5

@@ -20,3 +20,6 @@ verify(result)
 
 result = linear_search(numbers, 6)
 verify(result)
+
+# Target not found in list
+# Target found at index: 5

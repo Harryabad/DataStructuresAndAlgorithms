@@ -81,3 +81,6 @@ numbers = random.sample(range(1,101), 9)
 print(numbers, verify_sorted(numbers))
 l = merge_sort(numbers)
 print(l, verify_sorted(l))
+
+# [2, 51, 78, 60, 77, 92, 31, 1, 40] False
+# [1, 2, 31, 40, 51, 60, 77, 78, 92] True
