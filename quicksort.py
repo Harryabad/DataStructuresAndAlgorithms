@@ -23,4 +23,10 @@ print(numbers)
 sorted_numbers = quicksort(numbers)
 print(sorted_numbers)
 
-
+# [3, 6, 0, 9, 3, 5, 7, 4]
+#          [0, 3] 3 [6, 9, 5, 7, 4]
+#              [] 0 [3]
+#          [5, 4] 6 [9, 7]
+#             [4] 5 []
+#             [7] 9 []
+# [0, 3, 3, 4, 5, 6, 7, 9]
