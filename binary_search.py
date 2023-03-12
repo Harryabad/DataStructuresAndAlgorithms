@@ -1,4 +1,6 @@
 # Binary Search only works on sorted values
+# Big O Notation
+# O(log n)
 
 def binary_search(list, target):
     first = 0

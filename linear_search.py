@@ -1,3 +1,6 @@
+# Big O Notation
+# O(n)
+
 def linear_search(list, target):
     """
     Returns index position of target if found, else none

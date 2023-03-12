@@ -1,3 +1,6 @@
+# Big O Notation
+# O(n^2)
+
 import sys
 from load import load_numbers
 

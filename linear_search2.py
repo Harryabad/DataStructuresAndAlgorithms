@@ -1,3 +1,6 @@
+# Big O Notation
+# O(n^2)
+
 import sys
 import random
 from load import load_strings

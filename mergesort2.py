@@ -1,3 +1,6 @@
+# Big O Notation
+# O(n log n)
+
 import sys
 from load import load_numbers
 

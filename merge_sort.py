@@ -1,3 +1,6 @@
+# Big O Notation
+# O(n log n)
+
 import random
 
 def merge_sort(list):
